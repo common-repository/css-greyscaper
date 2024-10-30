@@ -1,0 +1,177 @@
+/*	CSS: Greyscaper (Escape) Admin CSS for WordPress 2.5+ 
+	©2008 Paolo Tresso (http://pixline.net)
+*/
+
+a.page-numbers:hover { border-color: #999; }
+body { background-color: #f8f5f7; color: #222; }
+body > #upload-menu { border-bottom-color: #fff; }
+div#current-widgets, #postcustomstuff table, #your-profile fieldset, a.page-numbers, #rightnow, div.dashboard-widget, .widefat { border-color: #fdca00; background:#e8e5e7; }
+h3 span { color:#222; }
+div.dashboard-widget-error { background-color: #c43; }
+div.dashboard-widget-notice { background-color: #cfe1ef; }
+div.dashboard-widget-submit, ul.widget-control-list div.widget-control-actions { border-top-color: #fdca00; }
+div.ui-tabs-panel { border-color: #b8b5b7; }
+input.disabled, textarea.disabled { background-color: #fdca00; }
+#user_info a:hover, li.widget-list-control-item h4.widget-title a:hover, .submit a, #dashmenu a:hover, #footer a, #upload-menu li a.upload-tab-link, li.widget-list-control-item h4.widget-title a, #dragHelper li.widget-list-control-item h4.widget-title a, #draghelper li.widget-list-control-item h4.widget-title a:visited, .login #backtoblog a:hover { color: #fff; }
+h3.dashboard-widget-title, h3.dashboard-widget-title span, h3.dashboard-widget-title small, #poststuff h3, .login form { background-color:#ddaa00;}
+li.widget-list-control-item, div.nav, .tablenav, .submitbox,  ul.view-switch li.current { background-color: #fdca00; }
+select { background-color: #fff; border-color: #ddd; }
+strong .post-com-count span { background-color: #fdca00; }
+ul#category-tabs li.ui-tabs-selected, .button-secondary, #quicktags, #login form .submit input { background-color: #e8e5e7 !important; }
+ul#widget-list li.widget-list-item h4.widget-title { background-color: #f0f0f0; color: #000; }
+ul.widget-control-list .sorthelper { background-color: #ccf3fa; }
+.ac_match, .subsubsub a.current, h2 { color: #000; }
+.ac_over { background-color: #f0f0b8; }
+.ac_results { background-color: #fff; border-color: #808080; }
+.ac_results li { color: #101010; }
+.alternate { background-color: #f8f5f7; }
+.available-theme a.screenshot { background-color: #f1f1f1; border-color: #fdca00; }
+.bar { background-color: #e8e8e8; border-right-color: #99d; }
+.describe { border-top-color: #d0d0d0; }
+.error, #login #login_error { background-color: #ffebe8; border-color: #c00; }
+.error a { color: #c00; }
+.form-invalid { background-color: #ffebe8 !important; }
+.form-invalid input { border-color: #c00 !important; }
+.form-table input, .form-table textarea { border-color: #fdca00; }
+.form-table tr { background-color: #d8d5d7; }
+.form-table td, .form-table th { border-bottom-color: #fff; }
+.highlight { background-color: #b8b5b7; color: #1c1b20; }
+#user_info, .howto, .nonessential, #sidemenu, #edit-slug-box, .form-input-tip, #dashboard_primary span.rss-date, .subsubsub, #dashboard_secondary div.dashboard-widget-content ul li a cite { color: #999; }
+.media-item { border-bottom-color: #d0d0d0; }
+.media-upload-form label.form-help, td.help { color: #9a9a9a; }
+.page-numbers { background-color: #fff; border-color: #fff; }
+.page-numbers.current { background-color: #1c1b20; border-color: #1c1b20; color: #fff; }
+.post-com-count { background-image: url(../images/bubble_bg.gif); color: #fff; }
+.post-com-count span { background-color: #bbb; color: #fff; }
+.post-com-count:hover span { background-color: #1c1b20; }
+.quicktags, .search { background-color: #fdca00; color: #000; }
+.side-info h5, .bordertitle { border-bottom-color: #dadada; }
+.side-info ul, .widget-description { color: #666; }
+.submit input, .button, .button-secondary, #login form .submit input, div.dashboard-widget-submit input, #edit-slug-buttons a.save { background-color: #f8f5f7; color: #222; border-color: #fdca00; }
+.button[disabled], .button:disabled { background-color: #999; }
+.submit input:hover, .button:hover, #edit-slug-buttons a.save:hover { border-color: #535353; }
+.submit input:hover, .button:hover, .button-secondary:hover, #wphead #viewsite a:hover, #adminmenu a:hover, #sidemenu
+a:hover, #submenu .current, #submenu a:hover, .submitbox #previewview a:hover, #the-comment-list .comment a:hover,
+#rightnow a:hover, a:hover, .subsubsub a:hover, .subsubsub a.current:hover, #login form .submit input:hover,
+div.dashboard-widget-submit input:hover, #edit-slug-buttons a.save:hover, #media-upload a.delete:hover { color: #b8b5b7; }
+.button-secondary:hover, #login form .submit input:hover { border-color: #1c1b20; }
+.submitbox #autosave .error, ul.view-switch li.current a { color: #333; }
+.submitbox #previewview { background-color: #1c1b20; }
+.submitbox #previewview a, #rightnow .rbutton { background-color: #ebebeb; color: #1c1b20; }
+.submitbox .submit { background-color: #1c1b20; color: #fdca00; }
+.submitbox .submitdelete { border-bottom-color: #999; }
+.submitbox .submitdelete:hover { color: #fff; background-color: #f00; border-bottom-color: #f00; }
+.tablenav .dots { background-color: #ddaa00; border-color: #b8b5b7; }
+.tablenav .next, .tablenav .prev{ background-color: #ddaa00; border-bottom-color: #bd8a00; border-color: #bd8a00; color: #1c1b20; }
+.tablenav .next:hover, .tablenav .prev:hover { border-bottom-color: #1c1b20; border-color: #b8b5b7; color: #fdca00; }
+.updated, .login #login_error, .login .message { background-color: #ffffe0; border-color: #e6db55; }
+.updated a { border-bottom-color: #fdca00; }
+.widefat td, .widefat th, div#available-widgets-filter, ul#widget-list li.widget-list-item, .commentlist li { border-bottom-color: #fdca00; }
+.widefat thead, .thead { background-color: #1c1b20; color: #d7d7d7; }
+.widget-control-save, .widget-control-remove { background-color: #b8b5b7; color: #222; }
+.wrap h2 { border-bottom-color: #dadada; color: #666; }
+#adminmenu a, #submenu a, #sidemenu a {color:#ddaa00;}
+#rightnow a, #poststuff #edButtonPreview, #poststuff #edButtonHTML, #the-comment-list p.comment-author strong a, a { color: #686567; }
+/* Because we don't want visited on these links */ 
+#adminmenu a.current, #sidemenu a.current { background-color: #f8f5f7; border-color: #fdca00; border-bottom-color: #f8f5f7; color: #1c1b20; }
+#adminmenu li a #awaiting-mod { background-image: url(../images/comment-stalk-fresh.gif); }
+#adminmenu li a #awaiting-mod span, #rightnow .reallynow { background-color: #fdca00; color: #fff; }
+#adminmenu li a:hover #awaiting-mod span { background-color: #1c1b20; }
+#adminmenu, div#media-upload-header { background-color: #1c1b20; border-bottom-color: #fdca00; }
+#currenttheme img { border-color: #666; }
+#current-widgets .drop-widget-here { background-color: #ffc; }
+#dashboard_secondary div.dashboard-widget-content ul li a { background-color: #f9f9f9; }
+input.readonly { background-color: #ddd; }
+#dashmenu a.current { background-color: #1c1b20; color: #fdca00; }
+#dragHelper h4.widget-title, li.widget-list-control-item h4, #dragHelper li.widget-list-control-item h4 { background-color: #1c1b20; color: #fff; }
+#ed_toolbar input { background: url( ../images/fade-butt.png ) #fff repeat-x 0 -2px; }
+#editable-post-name { background-color: #fffbcc; }
+#edit-slug-box strong, .login #nav a { color: #777; }
+#footer { background: url(../images/logo-ghost.png) #1c1b20 no-repeat 20px 10px; color: #999; }
+#media-items { border-color: #c0c0c0; }
+#pass-strength-result { background-color: #e3e3e3; border-color: #000; }
+#pass-strength-result.bad { background-color: #ffeff7; border-color: #c69; }
+#pass-strength-result.good { background-color: #effff4; border-color: #66cc87; }
+#pass-strength-result.short { background-color: #e3e3e3; }
+#pass-strength-result.strong { background-color: #59ef86; border-color: #319f52; }
+.checkbox, .side-info, #your-profile #rich_editing { background-color: #fff; }
+#plugins .active { background-color: #e3e3e3; }
+#plugins .togl { border-right-color: #fdca00; }
+#the-comment-list .unapproved { background-color: #ffffe0; }
+#plugins tr { background-color: #fff; }
+#poststuff #editor-toolbar .active { background-color: #e8e5e7; color: #333; }
+#poststuff .closed .togbox { background-color: #fdca00; background-image: url(../images/toggle-arrow.gif); }
+#poststuff .postbox, #titlediv, #poststuff .postarea, #poststuff .stuffbox { border-color: #ebebeb; border-right-color: #fdca00; border-bottom-color: #fdca00; }
+#poststuff .togbox { background-color: #b2b2b2; background-image: url(../images/toggle-arrow.gif); }
+#quicktags #ed_link { color: #00f; }
+#rightnow .youhave { background-color: transparent; }
+#sidemenu a { background-color: #1c1b20; border-bottom-color: #fdca00; border-top-color: #1c1b20; }
+#tagchecklist span a { background: url(../images/xit.gif) no-repeat; }
+#tagchecklist span a:hover { background: url(../images/xit.gif) no-repeat -10px 0; }
+#the-comment-list .comment a { border-bottom-color: #ababab; color: #666; }
+#update-nag, .plugin-update { background-color: #fffeeb; border-bottom-color: #fdca00; border-top-color: #fdca00; color: #fdca00; }
+#upload-files a.file-link { background-color: #d1e2ef; }
+#upload-file-view a img { border-bottom-color: #69c; }
+#upload-menu li #current-tab-nav, #upload-file { background-color: #f9fcfe; }
+#upload-menu li span a.page-numbers { color: #00019b; }
+#upload-menu li.current { border-right-color: #fdca00; color: #000; }
+#upload-menu li.current a.upload-tab-link, #upload-menu li a:hover { background-color: #f9fcfe; color: #000; }
+#upload-menu, #upload-menu li { border-top-color: #247fab; }
+.login #backtoblog a, .curtime, #user_info a { color: #fdca00; }
+#wphead { background-color: #1c1b20; }
+#wphead, body.login { border-top-color: #1c1b20; }
+#wphead #viewsite a { background-color: #b8b5b7; color: #222; border-color: #fdca00; }
+#wphead #viewsite a:hover { border-color: #1c1b20; }
+#wphead h1, #dashmenu a.current:hover, #login form input { color: #fdca00; }
+div#media-upload-error, .file-error, abbr.required, .widget-control-remove:hover, .delete:hover { color: #f00; }
+#media-upload a.delete { color: #888; }
+/* TinyMCE */ 
+.wp_themeSkin *, .wp_themeSkin a:hover, .wp_themeSkin a:link, .wp_themeSkin a:visited, .wp_themeSkin a:active { color: #000; }
+/* Containers */ 
+.wp_themeSkin table { background: #e8e5e7; }
+.wp_themeSkin iframe { background: #fff; }
+/* Layout */ 
+.wp_themeSkin .mceStatusbar { color:#000; background-color: #e8e5e7; }
+/* Button */ 
+.wp_themeSkin .mceButton { background-color: #e9e8e8; border-color: #666; }
+.wp_themeSkin a.mceButtonEnabled:hover, .wp_themeSkin a.mceButtonActive, .wp_themeSkin a.mceButtonSelected { background-color: #d6d8da; border-color: #e3e3e3 !important; }
+.wp_themeSkin .mceButtonDisabled { border-color: #ddd !important; }
+/* ListBox */ 
+.wp_themeSkin .mceListBox .mceText, .wp_themeSkin .mceListBox .mceOpen { border-color: #666; background-color: #e9e8e8; }
+.wp_themeSkin table.mceListBoxEnabled:hover .mceOpen, .wp_themeSkin .mceListBoxHover .mceOpen, .wp_themeSkin .mceListBoxSelected .mceOpen, .wp_themeSkin .mceListBoxSelected .mceText { border-color: #666 !important; background-color: #d6d8da; }
+.wp_themeSkin table.mceListBoxEnabled:hover .mceText, .wp_themeSkin .mceListBoxHover .mceText { border-color: #e3e3e3 !important; }
+.wp_themeSkin select.mceListBox { border-color: #ddd; background-color: #fff; }
+/* SplitButton */ 
+.wp_themeSkin .mceSplitButton a.mceAction, .wp_themeSkin .mceSplitButton a.mceOpen { background-color: #e9e8e8; border-color: #666; }
+.wp_themeSkin .mceSplitButton a.mceOpen:hover, .wp_themeSkin .mceSplitButtonSelected a.mceOpen, .wp_themeSkin table.mceSplitButtonEnabled:hover a.mceAction, .wp_themeSkin .mceSplitButton a.mceAction:hover { background-color: #d6d8da; border-color: #7789ba !important; }
+.wp_themeSkin .mceSplitButtonActive { background-color: #d6d8da; }
+/* ColorSplitButton */ 
+.wp_themeSkin div.mceColorSplitMenu table { background-color: #ebeaeb; border-color: #808080; }
+.wp_themeSkin .mceColorSplitMenu a { border-color: #808080; }
+.wp_themeSkin .mceColorSplitMenu a.mceMoreColors { border-color: #fff; }
+.wp_themeSkin .mceColorSplitMenu a.mceMoreColors:hover { border-color: #0A246A; background-color: #B6BDD2; }
+.wp_themeSkin a.mceMoreColors:hover { border-color: #0A246A; }
+/* Menu */ 
+.wp_themeSkin .mceMenu { border-color: #ddd; }
+.wp_themeSkin .mceMenu table { background-color: #ebeaeb; }
+.wp_themeSkin .mceMenu .mceText { color: #000; }
+.wp_themeSkin .mceMenu .mceMenuItemEnabled a:hover, .wp_themeSkin .mceMenu .mceMenuItemActive { background-color: #e8e5e7;} 
+.wp_themeSkin td.mceMenuItemSeparator { background-color: #aaa; } 
+.wp_themeSkin .mceMenuItemTitle a { background-color: #fdca00; border-bottom-color: #aaa; }
+.wp_themeSkin .mceMenuItemTitle span.mceText { color: #000; } 
+.wp_themeSkin .mceMenuItemDisabled .mceText { color: #888; }
+/* pop-up */ 
+.clearlooks2 .mceTop .mceLeft, .clearlooks2 .mceTop .mceRight { background-color: #e8e5e7; border-color: #fdca00; }
+.clearlooks2 .mceFocus .mceTop .mceLeft, .clearlooks2 .mceFocus .mceTop .mceRight { background-color: #e8e5e7; border-color: #1c1b20; }
+#editorcontainer { border-color: #fdca00; }
+#poststuff #titlewrap { border-color: #fdca00; }
+.curtime { color: #666; }
+#tTips p#tTips_inside { background-color: #ddd; color: #333; }
+
+#dashmenu li a.current {background:#1c1b20;}
+ul#planetnews li a, ul#planetnews li a:visited{ 
+	background-color:#f8f5f7 !important;
+}
+ul#planetnews li a, ul#planetnews li a:visited, div#footer p a, div#footer p a:visited{ 
+	color:#ddaa00 !important; 
+}
